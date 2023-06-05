@@ -174,3 +174,15 @@
     Все миниатюры изображений под основным имеют единые стандарты размера.
   actual-result: |
     У миниатюр нет стандартов размера, из за этого может поплыть верстка.
+    
+- summary: |
+    На первой странице магазина не скрыта кнопка Previous
+  environment: |
+    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+    Windows 10 v21H2 (сборка ОС 19044.2965)
+  steps-to-reproduce: |
+    1. Открыть главную страницу
+  expected-result: |
+    Отображается только кнопка Next
+  actual-result: |
+    Отображается кнопка Previous и кнопка Next
