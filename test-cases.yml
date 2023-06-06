@@ -6,6 +6,7 @@
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
   test-data: |
+    Тестовые данные
   steps:
     - Ввести в поле поиска релевантный запрос
   expected-result: |
@@ -19,6 +20,7 @@
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app 
   test-data: |
+    Тестовые данные
   steps:
     - В поле поиска поставить пробел
     - Ввести в поле поиска релевантный запрос
@@ -63,7 +65,8 @@
     Пользователь должен иметь возможность искать товары по ключевому слову или категории.
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
-  test-data: |  
+  test-data: | 
+    Тестовые данные
   steps:
     - Нажать на Category под строкой поиска
     - В выпадающем меню выбрать произвольный пункт
@@ -78,6 +81,7 @@
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
   test-data: |  
+    Тестовые данные
   steps:
     - Нажать на Category под строкой поиска
     - В выпадающем меню выбрать пустое поле
@@ -92,6 +96,7 @@
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
   test-data: |  
+    Тестовые данные
   steps:
    - Нажать на Category под строкой поиска
    - В выпадающем меню выбрать любой пункт
@@ -107,6 +112,7 @@
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
   test-data: |  
+    Тестовые данные
   steps:
     - Ввести в строку поиска произвольный набор символов
   expected-result: |
@@ -119,6 +125,7 @@
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
   test-data: |  
+    Тестовые данные
   steps:
     - В списке фильтров выбрать произвольный пункт
   expected-result: |
@@ -131,7 +138,8 @@
     Пользователь должен иметь возможность фильтровать товары.
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
-  test-data: |  
+  test-data: |
+    Тестовые данные
   steps:
     - В списке фильтров выбрать любой пункт
     - В списке фильтров выбрать другой любой пункт
@@ -146,6 +154,7 @@
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
   test-data: |  
+    Тестовые данные
   steps:
     - Ввести в поле "от" положительное целочисленное
     - Ввести в поле "до" положительное целочисленное больше, чем в поле от
@@ -160,6 +169,7 @@
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
   test-data: |  
+    Тестовые данные
   steps:
     - Ввести в поле "от" точную цену случайно выбранного товара
   expected-result: |
@@ -172,6 +182,7 @@
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
   test-data: |  
+    Тестовые данные
   steps:
     - Ввести в поле "до" точную цену произвольно выбранного товара
   expected-result: |
@@ -184,6 +195,7 @@
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
   test-data: |  
+    Тестовые данные
   steps:
     - Ввести в поле "от" десятичную дробь с точкой в качестве разделителя
     - Ввести в поле "до" десятичную дробь больше, чем в поле "от" с точкой в качестве разделителя
@@ -199,6 +211,7 @@
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app    
   test-data: |  
+    Тестовые данные
   steps:
     - Ввести в поле "от" десятичную дробь с запятой в качестве разделителя
     - Ввести в поле "до" десятичную дробь больше, чем в поле "от" с запятой в качестве разделителя
@@ -214,6 +227,7 @@
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
   test-data: |  
+    Тестовые данные
   steps:
     - Ввести в поля "от" отрицательное целочисленное
     - Ввести в поле "до" отрицательное целочисленное
@@ -227,6 +241,7 @@
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
   test-data: |  
+    Тестовые данные
   steps:
     - Ввести в поле "от" произвольный набор букв
     - Ввести в поле "до" произвольный набор букв
@@ -240,6 +255,7 @@
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
   test-data: |
+    Тестовые данные
   steps: 
   expected-result: |
     Пользователь должен увидеть каталог товаров. 
@@ -259,8 +275,9 @@
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
   test-data: |  
+    Тестовые данные
   steps: 
-    - кликнуть по карточке любого товара
+    - Перейти на страницу с подробной информацией любого товара
   expected-result: |
     Пользователь должен увидеть страницу с подробным описанием товара. 
     На странице подробного описания товара должны отображаться
@@ -282,6 +299,7 @@
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
   test-data: |  
+    Тестовые данные
   steps: 
     - Добавляем любой товар в корзину
     - Переходим на страницу https://hexlet-products-store.vercel.app/cart
@@ -295,6 +313,7 @@
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
   test-data: |  
+    Тестовые данные
   steps:
     - Открываем страницу подробного описания любого товара
     - Нажимаем кнопку Add to cart 
@@ -309,6 +328,7 @@
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
   test-data: | 
+    Тестовые данные
   steps:
     - Добавить товар в корзину
     - Перейти в корзину
@@ -339,6 +359,7 @@
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
   test-data: | 
+    Тестовые данные
   steps:
     - Добавить несколько товаров в корзину
     - Перейти в корзину
@@ -368,6 +389,7 @@
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
   test-data: | 
+    Тестовые данные
   steps:
     - в адресной строке заменить HTTPS на HTTP
     - перейти по получившейся ссылке
@@ -380,7 +402,8 @@
     Сайт должен иметь мобильную версию.
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app
-  test-data: | 
+  test-data: |
+    Тестовые данные
   steps:
     - С помощью DevTools переходим в режим просмотра с устройства
     - Выбираем любую модель смартфона в меню Dimensions
