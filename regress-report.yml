@@ -29,7 +29,7 @@ test-cases:
     status: fail
     
   - summary: |
-      Отображение подробной информации о товаре
+      Открытие карточки товара
     status: pass
     
   - summary: |
